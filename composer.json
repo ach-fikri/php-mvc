@@ -1,0 +1,27 @@
+{
+    "name": "belajar-php/belajar-php-mvc",
+    "description": "Belajar PHP MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ach-fikri",
+            "email": "ach.fikri.student@unibamadura.ac.id"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "AchFikri\\Belajar\\PHP\\MVC\\" : "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AchFikri\\Belajar\\PHP\\MVC\\" : "test"
+        }
+    }
+}
